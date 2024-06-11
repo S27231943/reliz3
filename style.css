@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: yellow;
+    color:rgb(131, 18, 131);
+}
+ img{
+    width:600px;
+    height:150px;
+    margin:15px;
+    align-items: center;
+    
+ }
+
+.a{
+    align-items: center;
+ }
+
+ img:hover{
+    
+    transform: scale(2);
+    transition: 1s linear;
+ }
+
+
+h1{
+   text-align: center;
+}
+
+h1:hover{
+   font-size: 50px;
+}
+
+
+a{
+   text-decoration: none;
+   color:yellow;
+   background-color: rgb(131, 18, 131);
+   border:1 px solid yellow;
+   border-radius: 15px;
+   margin:15px;
+   padding:5px;
+}
